@@ -1,0 +1,23 @@
+page-login {
+    .login-title{
+        color: white;
+    }
+    .login-main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    .login-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    }
+    .login-bg{
+        background-image: url('../../assets/img/fondo_login.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+}
