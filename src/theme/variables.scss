@@ -39,12 +39,13 @@ $colors: (
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  itemLight: ( base:transparent, contrast:white)
+  itemLight: ( base:transparent, contrast:white),
+  menuColor: (base:transparent, contrast:red)
 );
 
 
 // App iOS Variables
-
+$toolbar-md-background: transparent;
 // --------------------------------------------------
 // iOS only Sass variables can go here
 

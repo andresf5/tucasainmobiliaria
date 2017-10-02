@@ -10,10 +10,10 @@ import { MenuPage }from '../menu/menu';
 export class HomePage {
   
   root: any = MenuPage;
-  //menuOpc: Menu[] = [
+  menuOpc: Menu[] = [
 
-  //  { label: 'Inicio', icon: 'home' }
- // ]
+    { label: 'Inicio', icon: 'home' }
+  ]
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
