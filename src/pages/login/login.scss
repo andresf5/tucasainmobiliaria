@@ -14,10 +14,15 @@ page-login {
     justify-content: center;
     }
     .login-bg{
-        background-image: url('../../assets/img/fondo_login.png');
+        background: url('../assets/img/fondo_login.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        
 
     }
+    .text-input-wp{
+        border-color: #554C4A;
+    }
+    
 }

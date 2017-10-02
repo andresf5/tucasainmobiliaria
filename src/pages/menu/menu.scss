@@ -1,19 +1,19 @@
-page-home {
-    .home-title{
+page-menu {
+    .menu-title{
         color: white;
     }
-    .home-main{
+    .menu-main{
     display: flex;
     flex-direction: column;
     height: 100%;
     }
-    .home-form{
+    .menu-form{
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
     }
-    .home-bg{
+    .menu-bg{
         background: url('../assets/img/fondo_login.png');
         background-repeat: no-repeat;
         background-position: center;
