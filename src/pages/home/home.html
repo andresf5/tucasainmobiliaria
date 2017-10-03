@@ -1,6 +1,12 @@
+<div >
 <ion-split-pane   when="lg">
-<ion-menu [content]="content">
-Menu
+<ion-menu  [content]="content">
+        <ion-header>
+                <ion-toolbar>
+                  <ion-title>Menu</ion-title>
+                </ion-toolbar>
+        </ion-header>
 </ion-menu>
-<ion-nav [root]="root" main #content></ion-nav>
+<ion-nav  [root]="root" main #content></ion-nav>
 </ion-split-pane>
+</div>

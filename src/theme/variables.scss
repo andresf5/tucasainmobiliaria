@@ -35,11 +35,11 @@ $app-direction: ltr;
 
 $colors: (
   primary:    #554C4A,
-  secondary:  #32db64,
+  secondary:  #ff0000,
   danger:     #f53d3d,
   light:      #f4f4f4,
   dark:       #222,
-  itemLight: ( base:transparent, contrast:white),
+  itemLight: ( base:transparent, contrast:gray),
   menuColor: (base:transparent, contrast:red)
 );
 
@@ -55,9 +55,11 @@ $toolbar-md-background: transparent;
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
+$menu-md-background: #554C4A;
+$menu-md-box-shadow-color: black;
+$list-md-border-color: gray;
 
-
-
+$menu-width: 220px;
 
 // App Windows Variables
 // --------------------------------------------------

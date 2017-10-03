@@ -2,6 +2,7 @@ page-home {
     .home-title{
         color: white;
     }
+    
     .home-main{
     display: flex;
     flex-direction: column;
@@ -14,11 +15,11 @@ page-home {
     justify-content: center;
     }
     .home-bg{
-        background: url('../assets/img/fondo_login.png');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        
+        // background: url('../assets/img/fondo_login.png');
+        // background-repeat: no-repeat;
+        // background-position: center;
+        // background-size: cover;
+        background-color: black;
 
     }
 
