@@ -6,21 +6,16 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding class="menu-bg">
-
-
-  <div class="menu-main">
-    <div class="menu-form">
-    </div>
-
-    <ion-row>
-      <button ion-col col-4 col-md-2 offset-md-2 col-lg-2 offset-lg-3 ion-button outline color="secundary">Arrendar</button>
-      <button ion-col col-4 col-md-2 col-lg-2 ion-button outline color="secundary">Vender</button>
-      <button ion-col col-4 col-md-2 col-lg-2 ion-button outline color="secundary">Comprar</button>
-
-
-
-    </ion-row>
-
-  </div>
+<ion-content no-padding no-margin class="menu-bg">
+    <ion-tabs>
+        <ion-tab [root]="tab1Root" tabTitle="Buscar" tabIcon="search"></ion-tab>
+        <ion-tab [root]="tab2Root" tabTitle="Vender" tabIcon="home"></ion-tab>
+        <ion-tab [root]="tab3Root" tabTitle="Comprar" tabIcon="cart"></ion-tab>
+        <ion-tab [root]="tab4Root" tabTitle="Arrendar" tabIcon="cash"></ion-tab>
+        <ion-tab [root]="tab5Root" tabTitle="Mapa" tabIcon="navigate"></ion-tab>
+      </ion-tabs>
+  
 </ion-content>
+
+
+
